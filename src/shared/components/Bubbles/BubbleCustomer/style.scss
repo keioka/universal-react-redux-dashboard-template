@@ -1,0 +1,5 @@
+@import '../../../styles/index.scss';
+
+.bubble-customer {
+   @include _bubble($light-gray, $white);
+}

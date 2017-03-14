@@ -1,0 +1,16 @@
+@import '../../../styles/index';
+
+.btn-primary-sm {
+  background: $_color-primary;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 2px;
+  outline: none;
+  border-bottom: 2px solid darken($_color-primary, 15%);
+}
+
+.btn-primary-sm:hover {
+  cursor: pointer;
+  background: darken($_color-primary, 5%);
+}

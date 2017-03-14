@@ -1,0 +1,34 @@
+@import '../../../styles/index.scss';
+
+.list-customers {
+  padding: 20px;
+  /* Rectangle 4: */
+  background: #FFFFFF;
+  border: 1px solid rgba(214,214,214,0.30);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.19);
+  border-radius: 2px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.list-customers__table {
+  width: 100% !important;
+  overflow-x: scroll;
+  table-layout: fixed;
+}
+
+.list-customers__table th {
+  padding: 0px;
+}
+
+.list-customers__table thead tr {
+  width: 100% !important;
+  text-align: right;
+  border-bottom: 1px solid $light-gray;
+}
+
+.list-customers__table tr th, .list-customers__table tr td {
+  width: 100% !important;
+  text-align: right;
+  word-wrap: break-word;
+}

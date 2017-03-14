@@ -1,0 +1,20 @@
+@import '../../../styles/index.scss';
+
+.textarea {
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  border: none;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  font-family: $_font-default;
+  font-weight: 600;
+  font-size: 14px;
+  color: #6d6d6d;
+}
+
+.textarea:focus {
+  outline: none;
+}
+

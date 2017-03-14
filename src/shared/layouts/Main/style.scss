@@ -1,0 +1,14 @@
+@import '../../styles/index';
+
+.content {
+  flex: 2 1 50%;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0px 30% 0px 20%;
+  height: 100vh;
+  background: $light-gray;
+}
+
+.content__inner {
+  padding: 80px 5%;
+}

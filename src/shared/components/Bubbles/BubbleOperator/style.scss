@@ -1,0 +1,6 @@
+@import '../../../styles/index.scss';
+
+.bubble-operator {
+  @include _bubble($dark-gray, inherent);
+}
+

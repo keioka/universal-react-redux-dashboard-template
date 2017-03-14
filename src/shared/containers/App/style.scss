@@ -1,0 +1,15 @@
+@import '../../styles/index.scss';
+
+.app {
+  font-family: $_font-default;
+  font-weight: 600;
+  font-size: 14px;
+  color: #6d6d6d;
+}
+
+.main {
+  @include _display--flex();
+  flex-direction: row;
+  height: 100vh;
+  padding-top: 60px;
+}
