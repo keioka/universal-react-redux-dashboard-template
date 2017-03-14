@@ -39,6 +39,7 @@ I prefered using name "public" over "dist", or "build" because it sounds more tr
 
 #### Config
 ##### - webpack
+All webpack config files go here.
 
 ##### - firebaseConfig.js
 
@@ -63,26 +64,19 @@ export const firebaseConfig = {
 #### Shared
 `/shared` is shared filed with client and server.
 
-- components
-Components directory stores a part of UI Element.
+- components: Components directory stores UI Elements.
 
-- containers
-As separting components which are connected to redux store is best paractice, they are stored inside container.
+- containers: As separting components which are connected to redux store is best paractice, they are stored inside container.
 
-- layouts
-layouts are also components but handle layout. On this application, Main component will be passed to
+- layouts: layouts are also components but handle layout part.
 
-- middleware
-redux middleware.
+- middleware: redux middleware.
 
-- firebase
-firebase module here.
+- firebase: firebase module here.
 
-- helper
-helper is for manipulating data. ex:) date transform
+- helper: helper is for manipulating data. ex:) date transformation
 
-- redux
-redux directory contains auth, chat, customer, organization, and transaction.
+- redux: redux directory contains auth, chat, customer, organization, and transaction.
 
 #### service
 
