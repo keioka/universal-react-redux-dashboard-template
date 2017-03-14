@@ -53,13 +53,15 @@ export const firebaseConfig = {
 };
 ```
 
+
+#### client
+`client/index.js` is entry point to bundle all files for client.
+
+#### server
+`server/index.js` is entry point to bundle all files for server side rendering.
+
 #### Shared
-
-##### - client
-client is entry point to bundle all files for client.
-
-##### - server
-server is entry point to bundle all files for server side rendering.
+`/shared` is shared filed with client and server.
 
 - components
 Components directory stores a part of UI Element.
@@ -79,10 +81,10 @@ firebase module here.
 - helper
 helper is for manipulating data. ex:) date transform
 
-#### redux
+- redux
 redux directory contains auth, chat, customer, organization, and transaction.
 
-### service
+#### service
 
 Service directory is optional but neccesary for serverless applications. I use a framework called serverless which is serverless framework and allows us to compose and deploy functions on FaaS service such as AWS lambda.
 
