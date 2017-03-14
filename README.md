@@ -1,7 +1,32 @@
-# Dashboard
+# About Template
+
+This dashboard is created for users who need custom support.
+
+# Goal
+
+Build dashboard which is reuseable.
+
+# TODO
+- server side rendering
+- serverless
+- test
+- travis CI
+- postcss (*csslint)
+- progressive web app
+- local
 
 # Dependecies
 
+|Name|Description|
+|-|-|
+|React|Library for view|
+|Redux|state container for JavaScript apps based on flux data flow pattern|
+|Express|Sinatra inspired web development framework for node.js|
+|Webpack|Module bundler which packs CommonJs/AMD modules|
+
+and more...
+
+# Folder Structure
 
 ### public
 extracted css files and bundled js file goes here.
