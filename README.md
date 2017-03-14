@@ -17,12 +17,14 @@ Build dashboard which is reuseable.
 
 # Dependecies
 
+
 |Name|Description|
-|-|-|
+|---|---|
 |React|Library for view|
 |Redux|state container for JavaScript apps based on flux data flow pattern|
 |Express|Sinatra inspired web development framework for node.js|
 |Webpack|Module bundler which packs CommonJs/AMD modules|
+
 
 and more...
 
@@ -36,9 +38,9 @@ I prefered using name "public" over "dist", or "build" because it sounds more tr
 ### src
 
 #### Config
-##### webpack
+##### - webpack
 
-##### firebaseConfig.js
+##### - firebaseConfig.js
 
 firebaseConfig.js is config file for firebase data base.
 
@@ -53,10 +55,10 @@ export const firebaseConfig = {
 
 #### Shared
 
-##### client
+##### - client
 client is entry point to bundle all files for client.
 
-##### server
+##### - server
 server is entry point to bundle all files for server side rendering.
 
 - components
